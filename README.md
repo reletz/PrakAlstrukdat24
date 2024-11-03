@@ -1,2 +1,2 @@
 # PrakAlstrukdat24
-Kumpulan Jawaban Praktikum IF 2110 Alstrukdat 24
+Kumpulan Jawaban Praktikum IF2110 Alstrukdat 24
