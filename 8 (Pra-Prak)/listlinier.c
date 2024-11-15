@@ -50,7 +50,7 @@ int indexOf(List l, ElType val){
   while (P != NULL && INFO(P) != val){
     P = NEXT(P);
     i++;
-  } if ((P == NULL) && (i == length(l) - 1)) return IDX_UNDEF;
+  } if (i == length(l)) return IDX_UNDEF;
   return i;
 }
 
@@ -151,7 +151,7 @@ void displayList(List l){
     }
     P = NEXT(P);
   }
-  printf("]\n");
+  printf("]");
 }
 
 int length(List l){
